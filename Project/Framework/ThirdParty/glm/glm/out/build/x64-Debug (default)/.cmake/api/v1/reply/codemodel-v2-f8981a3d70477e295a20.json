@@ -1,0 +1,38 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"projectIndex" : 0,
+					"source" : "."
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project"
+				}
+			],
+			"targets" : []
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Badreddine Loulidi/Desktop/Coding projects/Computer Graphics/COMP371_Project/Project/Framework/ThirdParty/glm/glm/out/build/x64-Debug (default)",
+		"source" : "C:/Users/Badreddine Loulidi/Desktop/Coding projects/Computer Graphics/COMP371_Project/Project/Framework/ThirdParty/glm/glm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

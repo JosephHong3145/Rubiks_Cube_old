@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Cube.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Sphere.cpp" />
+    <ClCompile Include="stb_image.cpp" />
+    <ClCompile Include="Rubiks_Cube.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cube.h" />
+    <ClInclude Include="shaderloader.h" />
+    <ClInclude Include="shader_compile.h" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="Rubiks_Cube.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\..\container.jpg" />
+    <Image Include="..\Assets\Textures\BillboardTest.bmp" />
+    <Image Include="..\Assets\Textures\Particle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Assets\Scenes\AnimatedScene.scene" />
+    <None Include="..\Assets\Scenes\AnimatedSceneWithParticles.scene" />
+    <None Include="..\Assets\Scenes\CoordinateSystem.scene" />
+    <None Include="..\Assets\Scenes\StaticScene.scene" />
+    <None Include="..\Assets\Shaders\BlueColor.fragmentshader" />
+    <None Include="..\Assets\Shaders\PathLines.fragmentshader" />
+    <None Include="..\Assets\Shaders\PathLines.vertexshader" />
+    <None Include="..\Assets\Shaders\SolidColor.fragmentshader" />
+    <None Include="..\Assets\Shaders\SolidColor.vertexshader" />
+    <None Include="..\Assets\Shaders\Texture.fragmentshader" />
+    <None Include="..\Assets\Shaders\Texture.vertexshader" />
+    <None Include="AffectedByLighting.frag" />
+    <None Include="AffectedByLighting.vert" />
+    <None Include="shadowFragment.glsl" />
+    <None Include="depthFragment.glsl" />
+    <None Include="NotAffectedByLighting.frag" />
+    <None Include="NotAffectedByLighting.vert" />
+    <None Include="shadowVertex.glsl" />
+    <None Include="text.vert" />
+    <None Include="text.frag" />
+  </ItemGroup>
+</Project>

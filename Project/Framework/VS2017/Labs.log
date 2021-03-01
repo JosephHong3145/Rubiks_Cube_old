@@ -1,0 +1,113 @@
+﻿D:\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\/../Build/Debug/) contains files shared from another project (Project.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Cube.cpp
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\shader_compile.h(58,35): warning C4101: 'e': unreferenced local variable
+  main.cpp
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\shader_compile.h(58,35): warning C4101: 'e': unreferenced local variable
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\shaderloader.h(26,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(174,37): warning C4838: conversion from 'FT_Pos' to 'unsigned int' requires a narrowing conversion
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(522,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(626,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(695,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(703,56): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(711,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(719,56): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(727,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(735,56): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(1097,28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(1102,27): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(1106,40): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(1112,64): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(1113,62): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(534,16): warning C4101: 'height': unreferenced local variable
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(534,9): warning C4101: 'width': unreferenced local variable
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(1281,26): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(1293,23): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(1294,22): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(1302,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(1303,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(1308,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(1328,16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(1329,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(1299,11): warning C4101: 'nx': unreferenced local variable
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(1299,15): warning C4101: 'ny': unreferenced local variable
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(1299,19): warning C4101: 'nz': unreferenced local variable
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(1300,11): warning C4101: 's': unreferenced local variable
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\main.cpp(1300,14): warning C4101: 't': unreferenced local variable
+  Rubiks_Cube.cpp
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\shader_compile.h(58,35): warning C4101: 'e': unreferenced local variable
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\Rubiks_Cube.cpp(81,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\Rubiks_Cube.cpp(88,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\Rubiks_Cube.cpp(106,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\Rubiks_Cube.cpp(112,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\Rubiks_Cube.cpp(129,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\Rubiks_Cube.cpp(134,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\Rubiks_Cube.cpp(141,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\Rubiks_Cube.cpp(157,33): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\Rubiks_Cube.cpp(158,33): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\Rubiks_Cube.cpp(159,33): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\Rubiks_Cube.cpp(172,62): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\Rubiks_Cube.cpp(174,62): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\Rubiks_Cube.cpp(176,62): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\Rubiks_Cube.cpp(183,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\Rubiks_Cube.cpp(210,23): warning C4018: '<': signed/unsigned mismatch
+  Sphere.cpp
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\shader_compile.h(58,35): warning C4101: 'e': unreferenced local variable
+C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\VS2017\Sphere.cpp(66,28): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+  stb_image.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4217: symbol '___glewGetUniformLocation' defined in 'glew32s.lib(glew.obj)' is imported by 'Cube.obj' in function '"public: void __thiscall Shader::setMat4(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct glm::mat<4,4,float,0> const &)const " (?setMat4@Shader@@QBEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABU?$mat@$03$03M$0A@@glm@@@Z)'
+LINK : warning LNK4286: symbol '___glewGetUniformLocation' defined in 'glew32s.lib(glew.obj)' is imported by 'Sphere.obj'
+LINK : warning LNK4217: symbol '___glewUniformMatrix4fv' defined in 'glew32s.lib(glew.obj)' is imported by 'Cube.obj' in function '"public: void __thiscall Shader::setMat4(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct glm::mat<4,4,float,0> const &)const " (?setMat4@Shader@@QBEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABU?$mat@$03$03M$0A@@glm@@@Z)'
+LINK : warning LNK4286: symbol '___glewUniformMatrix4fv' defined in 'glew32s.lib(glew.obj)' is imported by 'Sphere.obj'
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\Bin\vc120.pdb'; linking object as if no debug info
+  Labs.vcxproj -> C:\Users\dot72\Desktop\Uni\2020\2020 Summer\COMP 371\Rubiks-Cube-master\Project\Framework\Bin\Labs-Debug.exe
