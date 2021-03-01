@@ -67,6 +67,10 @@ void Rubiks_Cube::drawModel() {
     }
 }
 
+void Rubiks_Cube::setTexturePack(vector<GLuint> texture) {
+    texturePack = texture;
+}
+
 void Rubiks_Cube::rotate_y(string direction, int y) {
     if (direction == "CCW") {
         rotateFactor.y = -90;

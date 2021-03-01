@@ -557,17 +557,6 @@ int main()
     Rubiks_Cube normalCube = Rubiks_Cube(vec3(0.0f), texturePackColor);
     normalCube.generateCube(ShadowShader);
 
-    Rubiks_Cube shapeCube = Rubiks_Cube(vec3(15.0f, 0.0f, 0.0f), texturePackShape);
-    shapeCube.generateCube(ShadowShader);
-
-    Rubiks_Cube animalCube = Rubiks_Cube(vec3(-15.0f, 0.0f, 0.0f), texturePackAnimals);
-    animalCube.generateCube(ShadowShader);
-
-    Rubiks_Cube gameCube = Rubiks_Cube(vec3(0.0f, 0.0f, -15.0f), texturePackGaming);
-    gameCube.generateCube(ShadowShader);
-
-    Rubiks_Cube movieCube = Rubiks_Cube(vec3(0.0f, 0.0f, 15.0f), texturePackMovies);
-    movieCube.generateCube(ShadowShader);
 
     //setting up for button debouncing
     int oldStateQ = GLFW_RELEASE;
@@ -661,25 +650,26 @@ int main()
         //modules for controlling model and world behaviour =================================================================================================================
 
         //number key: select which cube we're acting on =======================================================================================
-
+        selectedCube = &normalCube;
         if (glfwGetKey(window, GLFW_KEY_1) == GLFW_PRESS && TimeUpdate == 1) {
-            selectedCube = &normalCube;
+            normalCube.setTexturePack(texturePackColor);
         }
 
         if (glfwGetKey(window, GLFW_KEY_2) == GLFW_PRESS && TimeUpdate == 1) {
-            selectedCube = &shapeCube;
+            normalCube.setTexturePack(texturePackShape);
         }
 
         if (glfwGetKey(window, GLFW_KEY_3) == GLFW_PRESS && TimeUpdate == 1) {
-            selectedCube = &animalCube;
+            normalCube.setTexturePack(texturePackAnimals);
 		}
 
         if (glfwGetKey(window, GLFW_KEY_4) == GLFW_PRESS && TimeUpdate == 1) {
-            selectedCube = &gameCube;
+            normalCube.setTexturePack(texturePackGaming);
+
 		}
 
         if (glfwGetKey(window, GLFW_KEY_5) == GLFW_PRESS && TimeUpdate == 1) {
-            selectedCube = &movieCube;
+            normalCube.setTexturePack(texturePackMovies);
 		}
 
         //manipulating cube ==================================================================================================
@@ -940,7 +930,7 @@ int main()
         }
 
         if (gameState == 0) {
-            RenderText(TextShader, "Use number key 1-5 to select a Cube.", 25.0, 130.0, 0.5f, vec3(0.5, 0.8f, 0.2f));
+            RenderText(TextShader, "Use number key 1-5 to select a texture for your cube.", 25.0, 130.0, 0.5f, vec3(0.5, 0.8f, 0.2f));
             RenderText(TextShader, "Press F2 to start a game on your selected cube. ", 25.0, 100.0, 0.5f, vec3(0.5, 0.8f, 0.2f));
         }
 
@@ -951,18 +941,6 @@ int main()
 
         normalCube.setShader(ShadowShader);
         normalCube.drawModel();
-
-        shapeCube.setShader(ShadowShader);
-        shapeCube.drawModel();
-
-        animalCube.setShader(ShadowShader);
-        animalCube.drawModel();
-
-        gameCube.setShader(ShadowShader);
-        gameCube.drawModel();
-
-        movieCube.setShader(ShadowShader);
-        movieCube.drawModel();
 
         //drawing selection cube
         glBindTexture(GL_TEXTURE_2D, selectCubeID);
@@ -977,6 +955,7 @@ int main()
         ShadowShader.setMat4("worldMatrix", skybox);
         glDrawArrays(GL_TRIANGLES, 0, 36); // 36 vertices, starting at index 0
 
+        /*
         //drawing rubiks cube selector triangle 
         glBindTexture(GL_TEXTURE_2D, 0);
         glBindVertexArray(triangleVAO);
@@ -987,6 +966,8 @@ int main()
         NotAffectedByLightingShader.setInt("currentAxis", 1);
 
         glDrawArrays(GL_TRIANGLES, 0, 6); // 36 vertices, starting at index 0
+
+        */
 
         glBindVertexArray(0);
 
@@ -1028,7 +1009,7 @@ int main()
         }
 
         if (gameState == 0) {
-            RenderText(TextShader, "Use number key 1-5 to select a Cube.", 25.0, 130.0, 0.5f, vec3(0.5, 0.8f, 0.2f));
+            RenderText(TextShader, "Use number key 1-5 to select a texture for your cube.", 25.0, 130.0, 0.5f, vec3(0.5, 0.8f, 0.2f));
             RenderText(TextShader, "Press F2 to start a game on your selected cube. ", 25.0, 100.0, 0.5f, vec3(0.5, 0.8f, 0.2f));
         }
 
@@ -1039,18 +1020,6 @@ int main()
 
         normalCube.setShader(AffectedByLightingShader);
         normalCube.drawModel();
-
-        shapeCube.setShader(AffectedByLightingShader);
-        shapeCube.drawModel();
-
-        animalCube.setShader(AffectedByLightingShader);
-        animalCube.drawModel();
-
-        gameCube.setShader(AffectedByLightingShader);
-        gameCube.drawModel();
-
-        movieCube.setShader(AffectedByLightingShader);
-        movieCube.drawModel();
 
         //drawing selection cube
         glBindTexture(GL_TEXTURE_2D, selectCubeID);
@@ -1063,6 +1032,7 @@ int main()
         AffectedByLightingShader.setMat4("worldMatrix", skybox);
         glDrawArrays(GL_TRIANGLES, 0, 36); // 36 vertices, starting at index 0
 
+        /*
         //drawing cube selector
         glBindTexture(GL_TEXTURE_2D, 0);
 
@@ -1072,6 +1042,7 @@ int main()
         NotAffectedByLightingShader.setInt("currentAxis", 1);
 
         glDrawArrays(GL_TRIANGLES, 0, 6); // 36 vertices, starting at index 0
+        */
 
         glBindVertexArray(0);
 

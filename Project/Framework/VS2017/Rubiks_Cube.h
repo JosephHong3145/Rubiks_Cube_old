@@ -22,6 +22,7 @@ public:
 	void generateCube(Shader S);
 	void setShader(Shader S);
 	void drawModel();
+	void setTexturePack(vector<GLuint> texture);
 
 	void rotate_y(string direction, int y);
 
